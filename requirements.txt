@@ -1,0 +1,18 @@
+# Fundamental
+numpy
+jax==0.4.27  # See document for installation
+optax
+dm-haiku
+flax
+numpyro
+imageio
+tensorboardX
+wandb
+ipdb
+Cython<3.0.0
+
+# Used by environment
+gymnasium==0.29.1
+dill==0.3.8
+mujoco==2.3.7 # mujoco < 3 for swimmer-v4
+scikit-learn
